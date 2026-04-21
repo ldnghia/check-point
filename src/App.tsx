@@ -55,7 +55,7 @@ export default function App() {
             <div style={{ fontSize: 13, color: "var(--text-3)", maxWidth: 220 }}>Chưa có session nào. Tạo session mới để bắt đầu.</div>
             <button
               onClick={newSession}
-              style={{ marginTop: 8, padding: "12px 28px", borderRadius: 14, background: "var(--accent)", color: "#fff", fontSize: 15, fontWeight: 600, border: "none", cursor: "pointer" }}
+              style={{ marginTop: 8, padding: "12px 28px", borderRadius: 14, background: "var(--text)", color: "var(--bg)", fontSize: 15, fontWeight: 600, border: "none", cursor: "pointer" }}
             >
               Tạo session mới
             </button>
